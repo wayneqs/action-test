@@ -1,5 +1,5 @@
-name: Wayne's Demo Action
+name: Waynes Demo Action
 description: This action greets persons
 runs:
-  using: node20
-  main: src/index.js
+  using: "node20"
+  main: "src/index.js"
