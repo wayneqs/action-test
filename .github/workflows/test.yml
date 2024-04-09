@@ -11,4 +11,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 20
-      - uses: ./
+      - uses: "./"
+      - uses: "./"
+        with:
+          person: "Batman"
